@@ -6,7 +6,7 @@ function menu(){
         $('#registerForm').templateLoader({
             caching: false,
             templateRenderCallback: function(template){
-
+                yo();
             }
         });
     })
