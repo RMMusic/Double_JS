@@ -56,7 +56,8 @@ function menu(){
     });
 
     function changeMenu(self){
-        $(self).parent().toggleClass('active');
+        $('.nav li').removeClass('active');
+        $(self).parent().addClass('active');
         $('.page').css({display:"none"});
     }
 }
